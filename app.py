@@ -11,8 +11,8 @@ OLLAMA_API_URL = "http://localhost:11434/api/generate"
 
 @app.route("/", methods=["GET", "POST"])
 def index():
-   generated_questions = ""
-   error_message = "" 
+    generated_questions = ""
+    error_message = "" 
     
     
     if request.method == "POST":
@@ -63,7 +63,7 @@ def index():
         try:
             response = requests.post(
                 OLLAMA_API_URL,
-                json={"model": "llama3", "prompt": ai_prompt, "stream": False}
+                json={"model": "tinyllama", "prompt": ai_prompt, "stream": False}
             )
 
             response_data = response.json()
@@ -80,7 +80,7 @@ def index():
 
 
 
-            return render_template("index.html", questions=generated_questions, error=error_message)
+    return render_template("index.html", questions=generated_questions, error=error_message)
         
 
 if __name__ == "__main__":
