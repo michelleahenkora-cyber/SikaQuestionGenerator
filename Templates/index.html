@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Question Generator</title>
+    <link rel="stylesheet" href=../static/style.css>
+</head>
+<body>
+<div class="container">
+    <h1>Question Generator</h1>
+
+    <form method="POST">
+        <div>
+            <label for="subject">subject</label>
+            <input type="text"name="subject" id="subject" placeholder="e,g ICT" required>
+        </div>
+        <div>
+            <label for="topic">topic</label>
+            <input type="text"name="topic" id="topic" placeholder="Binary"required>
+        </div>
+        <div>
+            <label>Number of questions</label>
+            <input type="number" name="num_questions"min="1"max="30">
+        </div>
+        <div>
+            <label for="difficulty">Difficulty level</label>
+            <select name="difficulty" id="difficulty">
+                <option value="easy">Easy</option>
+                <option value="medium">Medium</option>
+                <option value="hard">Hard</option>
+            </select>
+        <button type="submit">Generate Questions</button>
+    </form>
+
+    <p class="footer">Built by Michelle Owiredua Darko</p>
+
+</div>
+</body>
+</html>
