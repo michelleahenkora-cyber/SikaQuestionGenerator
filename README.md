@@ -11,7 +11,8 @@ Ever wanted to create your own super-powered quiz? This app lets you pick a subj
 5.  **Click "Generate"** and watch the magic happen! ✨
 
 ## 📂 What's inside?
-- `main.py`: The "brain" of our app.
-- `template/index.html`: The "face" of our app that you see in the browser.
-- `static/style.css
+- `main.py`: The "brain" of my app.
+- `template/index.html`: The "face" of my app that you see in your browser.
+- `static/style.css`: The "appearance" of my app that you see in your browser
+  
 Built with ❤️ by Michelle Owiredua Darko.
