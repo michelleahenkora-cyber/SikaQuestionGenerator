@@ -16,23 +16,3 @@ Ever wanted to create your own super-powered quiz? This app lets you pick a subj
 - `static/style.css`: The "appearance" of my app that you see in your browser
   
 Built by Michelle Owiredua Darko.
-=======
-# 🤖 Question Generator 🚀
-
-Ever wanted to create your own super-powered quiz? This app lets you pick a subject, a topic and ask you your level of difficulty and then it finds cool questions for you.
-
-## 🎮 How to use 
-
-1.  **Subject**: Type something like "Mathematics" or "ICT" or any subject of ur choice.
-2.  **Topic**: Type something specific like "Trigonomertry" or "Networking" depending on the subject you picked
-3.  **Count**: Pick how many questions you want.
-4.  **Difficulty*:pick the level of your difficulty
-5.  **Click "Generate"** and watch the magic happen! ✨
-
-## 📂 What's inside?
-- `main.py`: The "brain" of my app.
-- `template/index.html`: The "face" of my app that you see in your browser.
-- `static/style.css`: The "appearance" of my app that you see in your browser
-  
-Built with ❤️ by Michelle Owiredua Darko.
->>>>>>> a892a84f69689cdd4cd968bb2400954424f55519
